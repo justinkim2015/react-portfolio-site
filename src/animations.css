@@ -1,0 +1,84 @@
+.top {
+  --offset: 50vh; 
+
+  position: sticky;
+  font-size: 1rem;
+  border: #23CE6B 1.5px solid;
+  border-radius: 1000rem;
+  padding: 1rem;
+  background-color: darkgray;
+  color: black;
+  bottom: 5vh;
+  left: 95vw;
+  margin-top: calc(100vh + var(--offset));
+}
+
+a {
+  box-shadow: inset 0 0 0 0 #23CE6B;
+  color: #23CE6B;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+a:hover {
+  box-shadow: inset 120px 0 0 0 #23CE6B;
+  color: white;
+}
+
+.typed-out {
+  overflow: hidden;
+  border-right: .1em solid #23CE6B;
+  white-space: nowrap;
+  width: 0;
+  animation: 
+    typing 1s steps(14, end) .5s forwards,
+    /* typing .5s steps(14, end) .0005s forwards, */
+    vanish 0.5s linear 2s forwards;
+}
+
+.typed-out-two {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+  animation: 
+    create-cursor .5s linear 1.5s forwards,
+    typing 1.7s steps(40, end) 2.1s forwards,
+    /* typing .5s steps(14, end) .0005s forwards, */
+    blink 1.7s infinite 3.5s;
+}
+
+.appear {
+  opacity: 0%;
+  animation: 0.5s linear 5s forwards running appear;
+  /* animation: 0.5s linear 0.1s forwards running appear; */
+}
+
+.ani-container {
+  display: inline-block;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink {
+  from { border-color: transparent }
+  to { border-color: #23CE6B; }
+}
+
+@keyframes vanish {
+  from { border-color: #23CE6B;}
+  to { border-color: transparent; }
+}
+
+@keyframes appear {
+  from { opacity: 0; }
+  to { opacity: 100%; }
+}
+
+@keyframes create-cursor {
+  from { border-color: transparent;}
+  to {   border-right: .1em solid #23CE6B; }
+}

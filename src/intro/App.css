@@ -1,0 +1,115 @@
+.profile {
+  align-items: center;
+  justify-content: center;
+  gap: 3vh;
+  margin: 7vh 0vw 10vh 0vw;
+  height: 75vh;
+  padding-top: 5vh;
+  background-image: url(./sunrise.JPG);
+  background-size: cover;
+}
+
+.typed-out {
+  font-size: 2rem;
+}
+
+.typed-out-two {
+  font-size: 1rem;
+}
+
+.profile-header {
+  font-size: 5rem;
+  text-align: center;
+  display: inline-block;
+}
+
+.subheader {
+  margin-top: -2vh;
+  margin-bottom: 1vh;
+  font-size: 17px;
+}
+
+.profile-pic {
+  max-width: 40%;
+  box-shadow: 2px 2px 3px rgb(39, 39, 39);
+  border: #EFF2F1 solid 2px;
+}
+
+.profile-content {
+  color: #EFF2F1;
+  background-color: #5F6A75;
+  box-shadow: 2px 2px 3px rgb(39, 39, 39);
+  padding: 1rem;
+  font-size: 23px;
+  margin: 2rem 3rem 2rem 3rem;
+  border-radius: 1rem;
+}
+
+.profile-banner {
+  width: 100%;
+  height: 100%;
+}
+
+
+/* Tablet */
+@media (min-width: 480px) {
+  .profile {
+    margin-top: 0;
+    padding-top: 0%;
+  }
+
+  .flex-container {
+    flex-direction: row;
+    margin-left: 4rem;
+  }
+
+  .typed-out {
+    font-size: 3rem;
+  }
+
+  .typed-out-two {
+    font-size: 1.5rem;
+  }
+
+  .profile-content {
+    font-size: 1.2rem;
+  }  
+
+  .profile-pic {
+    max-width: 25%;
+  }  
+}
+
+
+/* Desktop */
+@media (min-width: 1000px) {
+  .profile {
+    margin: 0vh 20vw 20vh 20vw;
+    padding-top: 10vh;
+    gap: 3vh;
+  }
+
+  .profile-content {
+    font-size: 2rem;
+  }  
+
+  .typed-out {
+    font-size: 5rem;
+  }
+
+  .typed-out-two {
+    font-size: 2rem;
+  }
+
+  .profile-header {
+    font-size: 5rem;
+  }
+
+  .subheader {
+    font-size: 2rem;
+  }
+
+  .profile-pic {
+    max-width: 30%;
+  }  
+}
