@@ -1,5 +1,6 @@
 import './intro/App.css';
 import Me from './intro/me.JPG'
+import './index.css';
 
 function App() {
   return (

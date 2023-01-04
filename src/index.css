@@ -1,9 +1,15 @@
+@font-face {
+  font-family: 'Share Tech';
+  src: url(./fonts/ShareTech-Regular.ttf);
+}
+
 html {
+  font-family: 'Share Tech';
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: 'Share Tech', sans-serif;
+  font-family: 'Share Tech';
   background-color: #5f6a75;
   color: #EFF2F1;
 }
