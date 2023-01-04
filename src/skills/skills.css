@@ -1,0 +1,75 @@
+.skills {
+  height: 100vh;
+  background-image: url('./laptop.jpg');
+  background-size: cover;
+}
+
+.skills-banner {
+  height: 100vh;
+  width: 100vw;
+  top: 110vh;
+}
+
+.skills-header {
+  color: #23CE6B;
+  margin: 12vh 0vw 5vh 0vw;
+}
+
+.skills-list {
+  margin: 0rem 3rem 2rem 3rem;
+  align-items: baseline;
+  font-size: 20px;
+  background-color: #5F6A75;
+  box-shadow: 2px 2px 3px rgb(39, 39, 39);
+  padding: 1rem;
+  gap: 1vh;
+  border-radius: 1rem;
+}
+
+.skill {
+  color: #23CE6B;
+}
+
+/* Tablet */
+@media (min-width: 480px) {  
+  .skills-header {
+    margin: 10vh 0vw 5vh 0vw;
+    font-size: 50px;
+  }
+
+  .skills-list {
+    margin: 0vh 20vw 3vh 20vw;
+  }
+
+  .skills-banner {
+    height: 75vh;
+    width: 100vw;
+    top: 102vh;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1000px) {
+  .skills-box {
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 5vh 10vw 0vh 10vw;
+  }
+
+  .skills-list {
+    margin: 0%;
+    min-width: 20vw;
+    align-items: center;
+  }
+
+  .skills-header {
+    margin-top: 30vh;
+  }
+
+  .skills-banner {
+    width: 100vw;
+    top: 102vh;
+    max-height: 120%;
+  }
+}
+

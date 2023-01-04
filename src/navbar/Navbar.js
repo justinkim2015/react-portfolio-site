@@ -10,10 +10,10 @@ function Navbar() {
         <label id="hamburger-menu" for="hamburger-input" class="padding">
           <nav id="dropdown-menu">
             <ul class="links">
-              <li><a href="#profile-header">About</a></li>
-              <li><a href="#skills">Skills</a></li>
-              <li><a href="#projects-header">Projects</a></li>
-              <li><a href="#contact-header">Contact</a></li>
+            <MyLink dest='/' content='About' />
+            <MyLink dest='/skills' content='Skills' />
+            <MyLink dest='/projects' content='Projects' />
+            <MyLink dest='/contact' content='Contact' />
             </ul>
           </nav>
         </label>

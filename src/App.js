@@ -12,7 +12,7 @@ function App() {
         <h3 class="typed-out-two">Full Stack Web Developer</h3>
       </div>
       <div class="flex-container appear">
-        <img src={Me} alt="picture-of-justin" class="profile-pic"></img>
+        <img src={Me} alt="im justin" class="profile-pic"></img>
         <p class="profile-content ">
           Full-stack developer living in Tokyo who likes to make stuff with
           his computer. My current focus is on delivering elegant and scaleable
