@@ -23,6 +23,4 @@ function App() {
   );
 }
 
-{/* <img src="assets/images/sunrise.JPG" alt="banner-pic" class="profile-banner background"> */}
-
 export default App;

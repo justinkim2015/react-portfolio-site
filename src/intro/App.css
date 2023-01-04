@@ -2,8 +2,9 @@
   align-items: center;
   justify-content: center;
   gap: 3vh;
-  margin: 7vh 0vw 10vh 0vw;
-  height: 75vh;
+  margin: 7vh 0vw 0vh 0vw;
+  height: 88vh;
+  width: 100%;
   padding-top: 5vh;
   background-image: url(./sunrise.JPG);
   background-size: cover;
