@@ -1,6 +1,6 @@
 import './intro/App.css';
-import Me from './intro/me.JPG'
 import './index.css';
+import Me from './intro/me.JPG'
 
 function App() {
   return (

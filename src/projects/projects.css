@@ -1,0 +1,117 @@
+.project-header {
+  margin-top: 10vh;
+}
+
+.project-card {
+  align-items: center;
+  justify-content: center;
+  box-shadow: 3px 3px 6px rgb(39, 39, 39);
+  margin: 0rem 1rem 3rem 1rem;
+  background-color: #c8d2d3;
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
+
+.project-image {
+  width: 80vw;
+  border-radius: 1rem;
+  box-shadow: 3px 3px 6px rgb(177, 177, 177);
+}
+
+.project-body {
+  width: 60vw;
+}
+
+.project-name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+  font-size: large;
+  font-weight: 500;
+  color: #2B2D42;
+}
+
+.project-description {
+  padding-top: 0.5vh;
+  color: #2B2D42;
+}
+
+/* Tablet */
+@media (min-width: 480px) {
+  .projects {
+    align-items: center;
+  }
+
+  .project-header {
+    margin-top: 12vh;
+    font-size: 3rem;
+  }
+
+  .project-image {
+    width: 35vw;
+    object-fit: cover;    
+  }
+
+  .project-card {
+    flex-direction: row;
+    width: 75vw;
+    margin: 1rem
+  }
+
+  .project-body {
+    width: 30vw;
+    margin-left: 5vw;
+  }
+
+  .skills-banner {
+    height: 110%;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1000px) {
+  .projects {
+    display: grid;
+    grid-template-columns: 35vw 35vw;
+    gap: 5vw;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .project-card {
+    flex-direction: column;
+    max-width: 30vw;
+    height: 65vh;
+    padding: 4rem;
+  }
+
+  .project-image {
+    width: 25vw;
+    height: 25vw;
+    margin: 0%;
+  }
+
+  .project-body {
+    margin: 0%;
+  }
+
+  .project-header {
+    margin-bottom: 10vh;
+  }
+
+  .project-name {
+    height: 5rem;
+    font-size: 30px;
+    font-weight: 500;
+  }
+  
+  .project-description {
+    font-size: 24px;
+  }
+
+  .skills-banner {
+    height: 235%;
+    top: 108vh;
+  }
+}
