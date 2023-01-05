@@ -1,32 +1,51 @@
 import './skills.css'
 
 const Skills = () => {
+  let front = [
+    {className:'skill devicon-javascript-plain',skill:'Javascript'},
+    {className:'skill devicon-react-original',skill:'ReactJS'},
+    {className:'skill devicon-html5-plain',skill:'HTML5'},
+    {className:'skill devicon-css3-plain',skill:'CSS3'},
+    {className:'skill devicon-tailwindcss-plain',skill:'Tailwind'},
+  ]
+
+  let back = [
+    {className:'skill devicon-ruby-plain-wordmark',skill:'Ruby & Ruby on Rails'},
+    {className:'skill devicon-javascript-plain',skill:'JavaScript'},
+    {className:'skill devicon-postgresql-plain',skill:'PostgreSQL'},
+    {className:'skill devicon-rspec-original',skill:'Rspec'}
+  ]
+
+  let utility = [
+    {className:'skill devicon-git-plain',skill:'Git & Github'},
+    {className:'skill devicon-vscode-plain',skill:'VSCode'},
+    {className:'skill devicon-webpack-plain',skill:'Webpack'},
+    {className:'skill devicon-linux-plain',skill:'Linux'}
+  ]
+
+  const mapSkills = (hash) => {
+    return hash.map((skill, index) => (
+      <li key={index}>
+        <i className={skill.className}></i> {skill.skill}
+      </li>
+    ))
+  }
+
+  const renderSkills = (title, hash) => {
+    return (
+      <ul className='skills-list flex'>
+        <h3 className="skill">{title}</h3>
+        {mapSkills(hash)}
+      </ul>      
+    )
+  }
   return (
-    <section class="skills flex" id="skills">
-      <h2 class="skills-header flex">My Skills</h2>
-      <div class="skills-box flex">
-        <ul class="skills-list flex">
-          <h3 class="skill">Front End Development</h3>
-          <li><i class="skill devicon-javascript-plain"></i> JavaScript</li>
-          <li><i class="skill devicon-react-original"></i> ReactJS</li>
-          <li><i class="skill devicon-html5-plain"></i> HTML5</li>
-          <li><i class="skill devicon-css3-plain"></i> CSS3</li>
-          <li><i class="skill devicon-tailwindcss-plain"></i> Tailwind</li>
-        </ul>
-        <ul class="skills-list flex">
-          <h3 class="skill">Back End Development</h3>
-          <li><i class="skill devicon-ruby-plain-wordmark"></i> Ruby & Ruby on Rails</li>
-          <li><i class="skill devicon-javascript-plain"></i> Javascript</li>
-          <li><i class="skill devicon-postgresql-plain"></i> PostgreSQL</li>
-          <li><i class="skill devicon-rspec-original"></i> Rspec</li>
-        </ul>
-        <ul class="skills-list flex">
-          <h3 class="skill">Development Tools</h3>
-          <li><i class="skill devicon-git-plain"></i> Git & Github</li>
-          <li> <i class="skill devicon-vscode-plain"></i> VSCode</li>
-          <li><i class="skill devicon-webpack-plain"></i> Webpack</li>
-          <li><i class="skill devicon-linux-plain"></i> Linux</li>
-        </ul>
+    <section className="skills flex" id="skills">
+      <h2 className="skills-header flex">My Skills</h2>
+      <div className="skills-box flex">
+        {renderSkills('Front End Development', front)}
+        {renderSkills('Back End Development', back)}
+        {renderSkills('Development Tools', utility)}
       </div>
     </section>
   )

@@ -4,12 +4,6 @@
   background-size: cover;
 }
 
-.skills-banner {
-  height: 100vh;
-  width: 100vw;
-  top: 110vh;
-}
-
 .skills-header {
   color: #23CE6B;
   margin: 12vh 0vw 5vh 0vw;
@@ -40,12 +34,6 @@
   .skills-list {
     margin: 0vh 20vw 3vh 20vw;
   }
-
-  .skills-banner {
-    height: 75vh;
-    width: 100vw;
-    top: 102vh;
-  }
 }
 
 /* Desktop */
@@ -64,12 +52,6 @@
 
   .skills-header {
     margin-top: 19vh;
-  }
-
-  .skills-banner {
-    width: 100vw;
-    top: 102vh;
-    max-height: 120%;
   }
 }
 

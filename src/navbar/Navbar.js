@@ -7,7 +7,7 @@ function Navbar() {
     return (
       <div class="container">
         <input type="checkbox" id="hamburger-input" class="burger-shower" />
-        <label id="hamburger-menu" for="hamburger-input" class="padding">
+        <label id="hamburger-menu" htmlFor="hamburger-input" class="padding">
           <nav id="dropdown-menu">
             <ul class="links">
             <MyLink dest='/' content='About' />
