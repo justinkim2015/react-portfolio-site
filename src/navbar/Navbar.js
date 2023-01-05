@@ -5,15 +5,15 @@ import MyLink from '../components/MyLink'
 function Navbar() {
   const mobileLinks = () => {
     return (
-      <div class="container">
-        <input type="checkbox" id="hamburger-input" class="burger-shower" />
-        <label id="hamburger-menu" htmlFor="hamburger-input" class="padding">
+      <div className="container">
+        <input type="checkbox" id="hamburger-input" className="burger-shower" />
+        <label id="hamburger-menu" htmlFor="hamburger-input" className="padding">
           <nav id="dropdown-menu">
-            <ul class="links">
-            <MyLink dest='/' content='About' />
-            <MyLink dest='/skills' content='Skills' />
-            <MyLink dest='/projects' content='Projects' />
-            <MyLink dest='/contact' content='Contact' />
+            <ul className="links">
+              <MyLink dest='/' content='About' />
+              <MyLink dest='/skills' content='Skills' />
+              <MyLink dest='/projects' content='Projects' />
+              <MyLink dest='/contact' content='Contact' />
             </ul>
           </nav>
         </label>
@@ -23,9 +23,9 @@ function Navbar() {
 
   const desktopLinks = () => {
     return(
-      <div class="desktop-container flex">
-        <img src={Favicon} alt="logo" class="logo"></img>
-        <ul class="links">
+      <div className="desktop-container flex">
+        <img src={Favicon} alt="logo" className="logo"></img>
+        <ul className="links">
           <MyLink dest='/' content='About' />
           <MyLink dest='/skills' content='Skills' />
           <MyLink dest='/projects' content='Projects' />
@@ -36,7 +36,7 @@ function Navbar() {
   }
   
   return (
-  <nav class="navbar sticky flex">
+  <nav className="navbar sticky flex">
     {mobileLinks()}
     {desktopLinks()}
   </nav>

@@ -1,7 +1,7 @@
 import './contact.css'
-
+import Resume from './Justin_Kim_Resume.pdf'
 const Contact = () => {
-  return (
+  return ( 
     <section class="contact flex">
       <div class="flex contact-info">
         <div class="contact-info-box">
@@ -13,7 +13,7 @@ const Contact = () => {
             Justinjkim2015@gmail.com
           </p>
           <p class="contact-email resume">
-            <a href="assets/resume/Justin_Kim_Resume.pdf" download>Resume</a>
+            <a href={Resume} download>Resume</a>
           </p>
           <div class="contact-icons icons">
             <a href="https://github.com/justinkim2015" class="devicon-github-original colored icon"></a>
