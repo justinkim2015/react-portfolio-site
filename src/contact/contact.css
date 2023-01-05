@@ -1,0 +1,67 @@
+.contact {
+  margin-top: 7vh;
+  height: 93vh;
+  background-image: url('./office.jpg');
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-header, .contact-message, .contact-email {
+  margin-bottom: 2vh;
+}
+
+.contact-header {
+  color: #23CE6B;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.contact-info-box {
+  color: #EFF2F1;
+  background-color: #5F6A75;
+  box-shadow: 2px 2px 3px rgb(39, 39, 39);
+  font-size: 15px;
+  margin: 2rem 3rem 2rem 3rem;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.contact-email {
+  text-align: center;
+}
+
+.contact-photo {
+  display: none;
+}
+
+/* Tablet */
+@media (min-width: 480px) {
+  .contact {
+    margin-top: 7vh;
+  }
+
+  .contact-header {
+    font-size: 3rem;
+    margin-bottom: 3vh;
+  }
+  
+  .contact-info-box {
+    font-size: 20px;
+    margin: 2rem 3rem 2rem 3rem;
+    padding: 1rem;
+  }  
+}
+
+/* Desktop */
+@media (min-width: 1000px) {
+  .contact-header {
+    margin-bottom: 4vh;
+  }
+  
+  .contact-info-box {
+    font-size: 25px;
+    margin: 2rem 3rem 2rem 3rem;
+    padding: 6rem;
+  }  
+}
