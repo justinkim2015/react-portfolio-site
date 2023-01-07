@@ -18,7 +18,7 @@ function App() {
       <div className="ani-container">
         <h3 className="typed-out-two">Full Stack Web Developer</h3>
       </div>
-      <div className="flex-container appear">
+      <div className="flex-container appear info">
         <img src={Me} alt="im justin" className="profile-pic"></img>
         <p className="profile-content ">
           Full-stack developer living in Tokyo who likes to make stuff with

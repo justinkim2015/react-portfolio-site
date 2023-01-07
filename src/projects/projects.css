@@ -71,6 +71,10 @@
 
 /* Desktop */
 @media (min-width: 1000px) {
+  .project-header {
+    margin-top: 15vh;
+  }
+  
   .projects {
     display: grid;
     grid-template-columns: 35vw 35vw;
