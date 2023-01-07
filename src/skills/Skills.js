@@ -26,7 +26,7 @@ const Skills = () => {
 
   const mapSkills = (hash) => {
     return hash.map((skill, index) => (
-      <li key={index}>
+      <li class='skill-name' key={index}>
         <i className={skill.className}></i> {skill.skill}
       </li>
     ))
@@ -34,7 +34,7 @@ const Skills = () => {
 
   const renderSkills = (title, hash) => {
     return (
-      <ul className='skills-list flex'>
+      <ul className='skills-list flex appear-now'>
         <h3 className="skill">{title}</h3>
         {mapSkills(hash)}
       </ul>      

@@ -11,7 +11,7 @@ const Contact = () => {
       animate={{ opacity:1 }}
       exit={{opacity: 0}}
     >
-      <div className="flex contact-info">
+      <div className="flex contact-info appear-now">
         <div className="contact-info-box">
           <h2 className="contact-header flex" id="contact-header">Contact me</h2>
           <p className="contact-message">

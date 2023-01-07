@@ -54,6 +54,12 @@ a:hover {
   /* animation: 0.5s linear 0.1s forwards running appear; */
 }
 
+.appear-now {
+  opacity: 0%;
+  animation: 0.5s linear 0.8s forwards running appear;
+  /* animation: 0.5s linear 0.1s forwards running appear; */
+}
+
 .ani-container {
   display: inline-block;
 }
