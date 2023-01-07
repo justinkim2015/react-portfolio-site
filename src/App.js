@@ -1,10 +1,17 @@
 import './intro/App.css';
-import './index.css';
-import Me from './intro/me.JPG'
+import './base-styles/index.css';
+import Me from './intro/me.JPG';
+import { motion } from 'framer-motion'
 
 function App() {
   return (
-    <section className="profile flex" id="profile-header">
+    <motion.section 
+      className="profile flex" id="profile-header"
+
+      initial={{ opacity:0 }}
+      animate={{ opacity:1 }}
+      exit={{opacity: 0}}
+    >
       <div className="ani-container">
         <h2 className="typed-out">I'm Justin Kim.</h2>
       </div>
@@ -20,7 +27,7 @@ function App() {
           Please keep scrolling to see some of my projects and get in touch with me!
         </p>
       </div>
-    </section>
+    </motion.section>
   );
 }
 

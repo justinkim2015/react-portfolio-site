@@ -1,8 +1,16 @@
 import './contact.css'
 import Resume from './Justin_Kim_Resume.pdf'
+import { motion } from 'framer-motion'
+
 const Contact = () => {
   return ( 
-    <section className="contact flex">
+    <motion.section 
+      className="contact flex"
+    
+      initial={{ opacity:0 }}
+      animate={{ opacity:1 }}
+      exit={{opacity: 0}}
+    >
       <div className="flex contact-info">
         <div className="contact-info-box">
           <h2 className="contact-header flex" id="contact-header">Contact me</h2>
@@ -21,7 +29,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </section>
+    </motion.section>
   )
 }
 

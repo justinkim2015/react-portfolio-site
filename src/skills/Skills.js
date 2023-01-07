@@ -1,4 +1,5 @@
 import './skills.css'
+import { motion } from 'framer-motion'
 
 const Skills = () => {
   let front = [
@@ -40,14 +41,20 @@ const Skills = () => {
     )
   }
   return (
-    <section className="skills flex" id="skills">
+    <motion.section 
+      className="skills flex" id="skills"
+
+      initial={{ opacity:0 }}
+      animate={{ opacity:1 }}
+      exit={{opacity: 0}}
+    >
       <h2 className="skills-header flex">My Skills</h2>
       <div className="skills-box flex">
         {renderSkills('Front End Development', front)}
         {renderSkills('Back End Development', back)}
         {renderSkills('Development Tools', utility)}
       </div>
-    </section>
+    </motion.section>
   )
 }
 

@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import './reset.css';
-import './animations.css';
+import './base-styles/index.css';
+import './base-styles/reset.css';
+import './base-styles/animations.css';
 import RouteSwitch from './RouteSwitch';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

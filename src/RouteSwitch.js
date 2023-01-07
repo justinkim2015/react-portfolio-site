@@ -1,21 +1,13 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import App from "./App";
+import { HashRouter } from "react-router-dom";
+import AnimatedRoutes from "./components/AnimatedRoutes";
 import Navbar from './navbar/Navbar'
-import Skills from './skills/Skills'
-import Projects from './projects/Projects'
-import Contact from './contact/Contact'
 
 const RouteSwitch = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Navbar />
-      <Routes>
-        <Route path="/" element={<App />} />
-        <Route path="/skills" element={<Skills />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-    </BrowserRouter>
+      <AnimatedRoutes />
+    </HashRouter>
   );
 };
 

@@ -4,12 +4,18 @@ import Karaoke from './photos/newsong.gif'
 import RailsBook from './photos/login.gif'
 import Chess from './photos/rubychess.png'
 import Project from './Project'
+import { motion } from 'framer-motion'
 
 const Projects = () => {
   return (
-    <div>
+    <motion.section
+    
+    initial={{ opacity:0 }}
+    animate={{ opacity:1 }}
+    exit={{opacity: 0}}
+    >
       <h2 className="project-header flex" id="projects-header">Projects</h2>
-      <section className="projects flex grid">
+      <div className="projects flex grid">
         <Project image={RailsBook} 
                  alt = 'RailsBook Gif'
                  title='RailsBook' 
@@ -39,8 +45,8 @@ const Projects = () => {
                  live='#' 
                  git='https://github.com/justinkim2015/chess' 
                  desc='This is a two-player chess game built in Ruby using OOP principles.'/>
-        </section>
-    </div>
+        </div>
+    </motion.section>
   )
 }
 
