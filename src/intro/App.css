@@ -34,11 +34,14 @@
 .profile-pic {
   max-width: 40%;
   box-shadow: 2px 2px 3px rgb(39, 39, 39);
-  border: #EFF2F1 solid 2px;
+  border: #EFF2F1 solid 1px;
   border-radius: 20px;
 }
 
 .profile-content {
+  display: flex;
+  align-items: center;
+  text-align: justify;
   color: #EFF2F1;
   background-color: #5F6A75;
   box-shadow: 2px 2px 3px rgb(39, 39, 39);
@@ -78,6 +81,7 @@
 
   .profile-pic {
     max-width: 25%;
+    border-radius: 1000px;
   }  
 }
 
@@ -134,8 +138,10 @@
   }
 
   .profile-content {
+    min-height: 26vh;
     font-size: 2rem;
-    margin: 0 10vw 0 15vw;
+    margin: 0 5vw 0 10vw;
+    padding: 1rem 2.5rem 1rem 2.5rem;
   } 
 
   .info {
