@@ -18,7 +18,7 @@ const Projects = () => {
       </h2>
       <div className="projects flex grid">
         <Project
-          image={RailsBook}
+          image={Chess}
           alt="RailsBook Gif"
           title="RailsBook"
           live="https://rails-book.onrender.com/"
@@ -27,16 +27,16 @@ const Projects = () => {
         />
 
         <Project
-          image={Karaoke}
+          image={Chess}
           alt="Karaoke Planner Gif"
-          title="Karaoke Planner(Currently Mobile Only)"
+          title="Karaoke Planner(Mobile Only)"
           live="http://karaoke.justins-portfolio.live"
           git="https://github.com/justinkim2015/karaoke-song-organizer#karaoke-song-organizer"
           desc="This Ruby on Rails application keeps track of karaoke songs and stores.  By using several Google APIs, Genius API, an IP geocoding API, and webscraping it is able to find and save song lyrics and nearby karaoke stores."
         />
 
         <Project
-          image={WeatherApp}
+          image={Chess}
           alt="Weather App screenshot"
           title="iPad Weather App"
           live="https://justinkim2015.github.io/ipad-weather-app/"

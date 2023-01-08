@@ -5,8 +5,8 @@ const Project = ({ image, alt, title, live, git, desc }) => {
     <div className="project-card flex">
       <img src={image} alt={alt} className="project-image"></img>
       <div className="project-body flex">
-        <div className="project-name">
-          <h3>{title}</h3>
+        <div className="project-card-heading">
+          <h3 className='project-title'>{title}</h3>
           <div className="icon-container">
             <a href={live}>Live</a>
             <a
@@ -19,6 +19,6 @@ const Project = ({ image, alt, title, live, git, desc }) => {
       </div>
     </div>
   );
-};
+}
 
 export default Project;
