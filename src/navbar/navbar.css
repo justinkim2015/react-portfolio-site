@@ -87,8 +87,9 @@
     height: auto;
   }
 
-  li {
-    font-size: 25px;
+  .navbar-link {
+    font-size: 23px;
+    font-weight: 100;
   }
 
   .logo {

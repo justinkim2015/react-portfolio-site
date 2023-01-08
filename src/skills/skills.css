@@ -8,7 +8,13 @@
   color: #23ce6b;
 }
 
+.skill-name {
+  font-size: 15px;
+}
+
 .skills-header {
+  font-size: 45px;
+  font-weight: 200;
   color: #23ce6b;
   margin: 12vh 0vw 5vh 0vw;
 }
@@ -25,13 +31,14 @@
 }
 
 .skill {
+  font-weight: 300;
   color: #23ce6b;
 }
 
 /* Tablet */
 @media (min-width: 480px) {
   .skill {
-    font-size: 1.3rem;
+    font-size: 22px;
   }
 
   .skills-header {
@@ -42,21 +49,28 @@
   .skills-list {
     margin: 0vh 23vw 3vh 23vw;
   }
+
+  .skill-name {
+    font-size: 18px;
+  }
 }
 
 /* Laptop */
 @media (min-width: 1024px) {
+  .skills {
+  }
+
   .skill {
-    font-size: 1.5rem;
+    font-size: 28px;
   }
 
   .skills-header {
-    font-size: 4rem;
+    font-size: 60px;
   }
 
   .skills-box {
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 15vh 10vw 0vh 10vw;
   }
 
@@ -64,11 +78,15 @@
     margin: 0%;
     min-width: 20vw;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
   .skills-header {
     margin-top: 15vh;
+  }
+
+  .skill-name {
+    font-size: 20px;
   }
 }
 
