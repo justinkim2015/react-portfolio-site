@@ -1,15 +1,15 @@
 .skills {
   height: 100vh;
-  background-image: url('./laptop.jpg');
+  background-image: url("./laptop.jpg");
   background-size: cover;
 }
 
 .skill-name:hover {
-  color: #23CE6B;
+  color: #23ce6b;
 }
 
 .skills-header {
-  color: #23CE6B;
+  color: #23ce6b;
   margin: 12vh 0vw 5vh 0vw;
 }
 
@@ -17,7 +17,7 @@
   margin: 0rem 3rem 2rem 3rem;
   align-items: baseline;
   font-size: 20px;
-  background-color: #5F6A75;
+  background-color: #5f6a75;
   box-shadow: 2px 2px 3px rgb(39, 39, 39);
   padding: 1rem;
   gap: 1vh;
@@ -25,15 +25,15 @@
 }
 
 .skill {
-  color: #23CE6B;
+  color: #23ce6b;
 }
 
 /* Tablet */
-@media (min-width: 480px) {  
+@media (min-width: 480px) {
   .skill {
     font-size: 1.3rem;
   }
-  
+
   .skills-header {
     margin: 10vh 0vw 5vh 0vw;
     font-size: 3rem;
@@ -53,7 +53,7 @@
   .skills-header {
     font-size: 4rem;
   }
-  
+
   .skills-box {
     flex-direction: row;
     justify-content: space-around;
@@ -81,7 +81,7 @@
   .skills-header {
     font-size: 4rem;
   }
-  
+
   .skills-box {
     flex-direction: row;
     justify-content: space-around;
@@ -100,4 +100,3 @@
     margin-top: 15vh;
   }
 }
-
