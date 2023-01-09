@@ -22,9 +22,7 @@ function App() {
         <img src={Me} alt="im justin" className="profile-pic"></img>
         <p className="profile-content ">
           Full-stack developer living in Tokyo who likes to make stuff with
-          his computer. My current focus is on delivering elegant and scaleable
-          websites via Ruby on Rails. I'm fluent in English and I can speak business level Japanese.
-          Please keep scrolling to see some of my projects and get in touch with me!
+          his computer.  Currently, I am focused on building applications using Ruby on Rails as a back-end and ReactJS for the front. I'm fluent in English and I can speak business level Japanese. Please check out some of my projects and get in touch!
         </p>
       </div>
     </motion.section>

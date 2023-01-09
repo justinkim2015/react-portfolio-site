@@ -158,4 +158,17 @@
 
   .skills-banner {
   }
+
+  .project-imagee {
+    background-image: url("./photos/rubychess.png");
+    min-width: 350px;
+    min-height: 350px;
+    background-size: cover;
+  }
+
+  .overlay:hover {
+    width: 350px;
+    height: 350px;
+    background-color: rgba(0, 0, 0, 0.411);
+  }
 }

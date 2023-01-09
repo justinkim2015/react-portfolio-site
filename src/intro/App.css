@@ -6,19 +6,20 @@
   width: 100%;
   padding-top: 10vh;
   background-image: url(./sunrise.JPG);
+  /* background-image: url(./sunrise-modified.JPG); */
   background-size: cover;
 }
 
 .typed-out {
   font-weight: 300;
   font-size: 3rem;
-  color: black;
+  color: #0A100D;
 }
 
 .typed-out-two {
   font-weight: 200;
   font-size: 1.5rem;
-  color: black;
+  color: #0A100D;
 }
 
 .profile-header {
@@ -70,12 +71,12 @@
 
   .typed-out {
     font-size: 4rem;
-    color: rgb(0, 0, 0);
+    color: #0A100D;
   }
 
   .typed-out-two {
     font-size: 1.5rem;
-    color: black;
+    color: #0A100D;
   }
 
   .profile-content {
