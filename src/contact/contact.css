@@ -1,6 +1,11 @@
+@font-face {
+  font-family: 'Share Tech';
+  src: url(../fonts/ShareTech-Regular.ttf);
+}
+
 .contact {
   margin-top: 7vh;
-  height: 93vh;
+  height: 95vh;
   background-image: url('./office.jpg');
   background-size: cover;
   justify-content: center;
@@ -28,14 +33,47 @@
   margin: 2rem 3rem 2rem 3rem;
   padding: 1rem;
   border-radius: 1rem;
+  width: 70vw;
 }
 
 .contact-email {
   text-align: center;
 }
 
-.contact-photo {
-  display: none;
+.input {
+  background-color: #EFF2F1;
+  border: none;
+  padding: 5px;
+  border-radius: 7px;
+}
+
+.input-textarea {
+  background-color: #EFF2F1;
+  border: none;
+  padding: 5px ;
+  height: 80px;
+  border-radius: 7px;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.submit {
+  background-color: #73808d;
+  padding: 10px;
+  border: none;
+  box-shadow: 2px 3px 10px rgb(43, 43, 43);
+  border-radius: 7px;
+  color: #EFF2F1;
+  font-family: 'Share Tech';
+}
+
+.submit:hover {
+  background-color: #474e55;
 }
 
 /* Tablet */

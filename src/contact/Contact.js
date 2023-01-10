@@ -1,19 +1,20 @@
 import './contact.css'
 import Resume from './Justin_Kim_Resume.pdf'
 import { motion } from 'framer-motion'
+import Form from './ContactForm'
 
 const Contact = () => {
   return ( 
     <motion.section 
       className="contact flex"
-    
       initial={{ opacity:0 }}
       animate={{ opacity:1 }}
       exit={{opacity: 0}}
     >
+
       <div className="flex contact-info appear-now">
         <div className="contact-info-box">
-          <h2 className="contact-header flex" id="contact-header">Contact me</h2>
+          <h2 className="contact-header flex" id="contact-header">Contact</h2>
           <p className="contact-message">
             If you would like to work together or get in contact I'm available on LinkedIn or via email!
           </p>
@@ -29,6 +30,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      <Form />
     </motion.section>
   )
 }
