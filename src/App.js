@@ -1,6 +1,6 @@
 import './intro/App.css';
 import './base-styles/index.css';
-import Me from './intro/me.JPG';
+import Me from './intro/me-nobackground.png';
 import { motion } from 'framer-motion'
 
 function App() {

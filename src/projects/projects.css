@@ -2,6 +2,10 @@
   margin-top: 10vh;
 }
 
+.project-desktop {
+  display: none;
+}
+
 .project-card {
   align-items: center;
   justify-content: center;
@@ -128,29 +132,36 @@
     font-size: 60px;
   }
   
-  /* .projects {
-    grid-template-columns: 15vw 15vw 15vw 15vw; 
-    gap: 5vw;
+  .projects {
+    max-width: 100vw;
+    grid-template-columns: 20vw 20vw 20vw 20vw;
+    overflow: hidden;
   }
 
   .project-card {
-    margin-left: 2.5vw;
-    flex-direction: column;
-    max-width: 15vw;
-  }
+    width: 19vw;
+    height: 19vw;
+    padding: 0%;
+    margin: 0%;
 
-  .project-image {
-    max-width: 10vw;
   }
 
   .project-body {
-    max-width: 10vw;
-  } */
+    padding: 0%;
+    margin: 0%;
+  }
+
+  .project-image {
+    visibility: hidden;
+    height: 0%;
+    width: 0%;
+  }
 
   .project-header {
   }
 
-  .project-name {
+  .project-title {
+    font-size: 12px;
   }
   
   .project-description {
@@ -159,16 +170,30 @@
   .skills-banner {
   }
 
-  .project-imagee {
+  .project-desktop {
+    display: block;
     background-image: url("./photos/rubychess.png");
-    min-width: 350px;
-    min-height: 350px;
+    width: 13vw;
+    height: 13vw;
     background-size: cover;
   }
-
+  
+  .overlay {
+    width: 13vw;
+    height: 13vw;
+  }
   .overlay:hover {
-    width: 350px;
-    height: 350px;
     background-color: rgba(0, 0, 0, 0.411);
+  }
+  
+  .overlay-title, .overlay-text {
+  }
+
+  .hidden {
+    visibility: hidden;
+  }
+
+  .mobile, .tablet {
+    display: none;
   }
 }

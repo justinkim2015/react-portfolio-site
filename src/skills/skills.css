@@ -14,7 +14,7 @@
 
 .skills-header {
   font-size: 45px;
-  font-weight: 200;
+  font-weight: 100;
   color: #23ce6b;
   margin: 12vh 0vw 5vh 0vw;
 }
@@ -71,10 +71,11 @@
   .skills-box {
     flex-direction: row;
     justify-content: space-between;
-    margin: 15vh 10vw 0vh 10vw;
+    margin: 10vh 10vw 10vh 10vw;
   }
 
   .skills-list {
+    padding: 1.5rem;
     margin: 0%;
     min-width: 20vw;
     align-items: center;
@@ -93,21 +94,23 @@
 /* Laptop */
 @media (min-width: 1440px) {
   .skill {
-    font-size: 1.5rem;
+    font-size: 32px;
   }
 
   .skills-header {
-    font-size: 4rem;
+    font-size: 70px;
   }
 
   .skills-box {
     flex-direction: row;
     justify-content: space-around;
-    margin: 15vh 10vw 0vh 10vw;
+  }
+  
+  .skill-name {
+    font-size: 23px;
   }
 
   .skills-list {
-    padding: 3rem 0 3rem 0;
     margin: 0%;
     min-width: 20vw;
     align-items: center;
