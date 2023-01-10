@@ -26,7 +26,7 @@ const ContactForm = () => {
       onSubmit={handleSubmit}
       method="POST"
       target="_blank"
-      className='contact-info-box'
+      className='contact-info-box appear-now'
     >
       <h2 className='contact-header'>Send me an email!</h2>
       <div className='input-box'>

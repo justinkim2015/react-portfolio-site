@@ -40,6 +40,8 @@
   text-align: center;
 }
 
+/* Form */
+
 .input {
   background-color: #EFF2F1;
   border: none;
@@ -80,6 +82,7 @@
 @media (min-width: 480px) {
   .contact {
     margin-top: 7vh;
+    height: 130vh;
   }
 
   .contact-header {
@@ -89,13 +92,37 @@
   
   .contact-info-box {
     font-size: 20px;
+    width: 60vw;
     margin: 2rem 3rem 2rem 3rem;
     padding: 1rem;
   }  
 
   .contact-message {
-    max-width: 35vw;
-    margin: 0 20vw 5vh 20vw;
+    max-width: 40vw;
+    margin: 0 10vw 5vh 10vw;
+  }
+
+  /* Form */
+  .input {
+    border: none;
+    padding: 5px;
+  }
+  
+  .input-textarea {
+    padding: 5px ;
+    height: 80px;
+  }
+  
+  .input-box {
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .submit {
+    padding: 10px;
+  }
+  
+  .submit:hover {
   }
 }
 
