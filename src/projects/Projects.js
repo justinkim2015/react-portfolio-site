@@ -12,13 +12,15 @@ const Projects = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
+
+      className='background'
     >
-      <h2 className="project-header flex" id="projects-header">
+      <h2 className="project-header flex">
         Projects
       </h2>
-      <div className="projects flex grid">
+      <div className="projects flex grid appear-now">
         <Project
-          image={Chess}
+          image={RailsBook}
           alt="RailsBook Gif"
           title="RailsBook"
           live="https://rails-book.onrender.com/"
@@ -28,9 +30,9 @@ const Projects = () => {
         />
 
         <Project
-          image={Chess}
+          image={Karaoke}
           alt="Karaoke Planner Gif"
-          title="Karaoke Planner(Mobile Only)"
+          title="Karaoke Planner"
           live="http://karaoke.justins-portfolio.live"
           git="https://github.com/justinkim2015/karaoke-song-organizer#karaoke-song-organizer"
           desc="This Ruby on Rails application keeps track of karaoke songs and stores.  By using several Google APIs, Genius API, an IP geocoding API, and webscraping it is able to find and save song lyrics and nearby karaoke stores."
@@ -38,7 +40,7 @@ const Projects = () => {
         />
 
         <Project
-          image={Chess}
+          image={WeatherApp}
           alt="Weather App screenshot"
           title="iPad Weather App"
           live="https://justinkim2015.github.io/ipad-weather-app/"
@@ -51,8 +53,8 @@ const Projects = () => {
           image={Chess}
           alt="Chess screenshot"
           title="Two-Player CLI Chess"
-          live="#"
-          git="https://github.com/justinkim2015/chess"
+          live="https://github.com/justinkim2015/chess#summary"
+          git="https://github.com/justinkim2015/chess#summary"
           desc="This is a two-player chess game built in Ruby using OOP principles."
           identity='Chess'
         />

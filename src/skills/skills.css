@@ -16,7 +16,7 @@
   font-size: 45px;
   font-weight: 100;
   color: #23ce6b;
-  margin: 12vh 0vw 5vh 0vw;
+  margin: 10vh 0vw 5vh 0vw;
 }
 
 .skills-list {
@@ -42,7 +42,7 @@
   }
 
   .skills-header {
-    margin: 10vh 0vw 5vh 0vw;
+    margin: 12vh 0vw 5vh 0vw;
     font-size: 3rem;
   }
 

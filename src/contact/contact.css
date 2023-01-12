@@ -4,8 +4,8 @@
 }
 
 .contact {
-  margin-top: 7vh;
-  height: 105vh;
+  margin-top: 3vh;
+  height: 100vh;
   background-image: url('./office.jpg');
   background-size: cover;
   justify-content: center;
@@ -81,8 +81,7 @@
 /* Tablet */
 @media (min-width: 480px) {
   .contact {
-    margin-top: 7vh;
-    height: 130vh;
+    height: 120vh;
   }
 
   .contact-header {
@@ -131,7 +130,8 @@
 /* Desktop */
 @media (min-width: 1440px) {
   .contact {
-    height: 97vh;
+    margin-top: 6vh;
+    height: 108vh;
   }
 
   .contact-header {

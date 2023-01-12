@@ -2,20 +2,26 @@ import "./projects.css";
 
 const Project = ({ image, alt, title, live, git, desc, identity }) => {
   const toggle = () => {
-    let overlayTitle = document.querySelector(`#${identity}-title`);
+    let overlayBox = document.querySelector(`#${identity}-box`);
     let overlayText = document.querySelector(`#${identity}-text`);
-    overlayTitle.classList.toggle("hidden");
+    overlayBox.classList.toggle("hidden");
     overlayText.classList.toggle("hidden");
   };
 
   return (
     <div className="project-card flex">
-      <div className="project-desktop-image">
-        <div className="overlay" onMouseEnter={toggle} onMouseLeave={toggle}>
-          <h1 className="overlay-title hidden" id={`${identity}-title`}>{title}</h1>
-          {/* Add icons here to live/git */}
-          <p className="overlay-text hidden" id={`${identity}-text`}>{desc}</p>
-        </div>
+      <div className={`project-desktop-image  ${identity}`}>
+        <a href={live} className='project-link'>
+          <div className="overlay" onMouseEnter={toggle} onMouseLeave={toggle}>
+
+            <div className='overlay-box hidden' id={`${identity}-box`}>
+              <h1 className='overlay-project-title'>{title}</h1>
+              <a href={git} className="devicon-github-original"></a>
+            </div>
+
+            <p className="overlay-text hidden" id={`${identity}-text`}>{desc}</p>
+          </div>
+        </a>
       </div>
 
       <div className="mobile tablet">

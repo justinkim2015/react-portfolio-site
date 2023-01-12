@@ -1,5 +1,11 @@
+.background {
+  background-image: url(./photos/wood-background.jpg);
+  background-size: cover;
+}
+
 .project-header {
   margin-top: 10vh;
+  font-size: 45px;
 }
 
 .project-desktop-image {
@@ -32,7 +38,7 @@
   align-items: center;
   height: 5rem;
   font-size: large;
-  color: #2B2D42;
+  color: #2b2d42;
 }
 
 .project-title {
@@ -49,7 +55,7 @@
   font-size: 15px;
   line-height: 1.2;
   text-align: justify;
-  color: #2B2D42;
+  color: #2b2d42;
 }
 
 /* Tablet */
@@ -70,7 +76,7 @@
 
   .project-image {
     width: 30vw;
-    object-fit: cover;    
+    object-fit: cover;
   }
 
   .project-card {
@@ -82,15 +88,14 @@
     width: 30vw;
     margin-left: 5vw;
   }
-
-  .skills-banner {
-    height: 110%;
-  }
 }
-
 
 /* Laptop */
 @media (min-width: 1024px) {
+  .background {
+    height: 100vh;
+  }
+  
   .desktop {
     display: flex;
     flex-direction: column;
@@ -98,9 +103,10 @@
   }
 
   .project-header {
+    margin-top: 15vh;
     font-size: 60px;
   }
-  
+
   .projects {
     margin-top: 10vh;
     display: grid;
@@ -117,7 +123,6 @@
     height: 23vw;
     padding: 0%;
     margin: 0%;
-
   }
 
   .project-body {
@@ -128,34 +133,67 @@
   .project-title {
     font-size: 18px;
   }
-  
+
   .project-desktop-image {
     border-radius: 10px;
     display: block;
-    background-image: url("./photos/rubychess.png");
     width: 17vw;
     height: 17vw;
     background-size: cover;
   }
-  
+
+  .Chess {
+    background-image: url("./photos/rubychess.png");
+  }
+
+  .Weather {
+    background-image: url(./photos/Homepage.png);
+    background-position: center;
+  }
+
+  .RailsBook {
+    /* background-image: url(./photos/login.gif); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .Karaoke {
+    /* background-image: url(./photos/newsong.gif); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
   .overlay {
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 17vw;
     height: 17vw;
   }
+
   .overlay:hover {
     background-color: rgba(0, 0, 0, 0.8);
   }
-  
-  .overlay-title {
-    font-size: 15px;
+
+  .overlay-box {
+    font-size: 30px;
     font-weight: 200;
     text-align: center;
     margin-top: 2vw;
-  } 
-  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+
+  .overlay-project-title {
+    font-size: 30px;
+    font-weight: 200;
+  }
+
   .overlay-text {
     font-size: 11px;
     line-height: 1.2;
@@ -167,8 +205,14 @@
     visibility: hidden;
   }
 
-  .mobile, .tablet {
+  .mobile,
+  .tablet {
     display: none;
+  }
+
+  .project-link {
+    margin: 0%;
+    padding: 0%;
   }
 }
 
@@ -178,8 +222,8 @@
     font-size: 32px;
     text-align: center;
     margin-top: 2vw;
-  } 
-  
+  }
+
   .overlay-text {
     font-size: 16px;
     line-height: 1.2;
