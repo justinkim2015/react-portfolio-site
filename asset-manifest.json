@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-portfolio-site/static/css/main.50616bea.css",
+    "main.js": "/react-portfolio-site/static/js/main.c64b3a2b.js",
+    "static/media/laptop.jpg": "/react-portfolio-site/static/media/laptop.764c542f19e12e322696.jpg",
+    "static/media/wood-background.jpg": "/react-portfolio-site/static/media/wood-background.49937405c0b051d1e921.jpg",
+    "static/media/newsong.gif": "/react-portfolio-site/static/media/newsong.ac2be96b945bd00c77d1.gif",
+    "static/media/Homepage.png": "/react-portfolio-site/static/media/Homepage.44b5d706ab9d5197ebe6.png",
+    "static/media/office.jpg": "/react-portfolio-site/static/media/office.9345fe3380a2974bc0f1.jpg",
+    "static/media/me-nobackground.png": "/react-portfolio-site/static/media/me-nobackground.d257d1a7add3a48d8c28.png",
+    "static/media/login.gif": "/react-portfolio-site/static/media/login.6f3c48598052b6827cf4.gif",
+    "static/media/sunrise.JPG": "/react-portfolio-site/static/media/sunrise.be0f5a84fbd0ded77a2d.JPG",
+    "static/media/Justin_Kim_Resume.pdf": "/react-portfolio-site/static/media/Justin_Kim_Resume.eb675e3e97633a0c14f9.pdf",
+    "static/media/ShareTech-Regular.ttf": "/react-portfolio-site/static/media/ShareTech-Regular.c0baac7e6709b68d7a21.ttf",
+    "static/media/rubychess.png": "/react-portfolio-site/static/media/rubychess.593cb8e781032219a975.png",
+    "index.html": "/react-portfolio-site/index.html",
+    "main.50616bea.css.map": "/react-portfolio-site/static/css/main.50616bea.css.map",
+    "main.c64b3a2b.js.map": "/react-portfolio-site/static/js/main.c64b3a2b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.50616bea.css",
+    "static/js/main.c64b3a2b.js"
+  ]
+}
