@@ -152,14 +152,14 @@
   }
 
   .RailsBook {
-    /* background-image: url(./photos/login.gif); */
+    background-image: url(./photos/login.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
 
   .Karaoke {
-    /* background-image: url(./photos/newsong.gif); */
+    background-image: url(./photos/newsong.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
